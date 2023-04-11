@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 7 - Index</title>
+    <!-- LINK CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="grid">
         <!-- LOGO + NAV -->
-        <header class="jCSpaceBetween bgPrincipal mb20">
+        <header class="jCSpaceBetween mb20 gradienteHeader">
             <div class="logo">
                 <img src="img/logoLakers.png" alt="logo lakers">
             </div>
@@ -26,24 +28,24 @@
         </header>
         <!-- CONTENIDO PRINCIPAL -->
         <main class="gridMain">
-            <div class="imgPrincipal">
+            <div class="imgPrincipal" data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/header_nosotros.jpg" alt="jugadores nba" class="img-fluid">
             </div>
-            <div class="encabezado">
+            <div class="encabezado" data-aos="fade-up" data-aos-duration="3000">
                 <h1>HOME</h1>
             </div>
-            <div class="parrafoIzq m20">
+            <div class="parrafoIzq m20" data-aos="fade-up" data-aos-duration="3000">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique temporibus nemo eius dolor delectus iusto quae inventore rem amet voluptatibus? Corrupti sapiente voluptates ad consequuntur delectus consequatur, deserunt sit rem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium iure qui, culpa tempora ducimus odit magni. Ipsa, eos ea odit consequatur vel amet corrupti neque cupiditate eaque molestiae molestias.</p>
             </div>
-            <div class="imgParrafo p20">
-                <img src="img/img_kyrie.jpg" alt="kyrie" class="img-fluid">
+            <div class="imgParrafo p20" data-aos="fade-up" data-aos-duration="3000">
+                <img src="img/img_kyrie.jpg" alt="kyrie" class="img-fluid img-kyrie">
             </div>
             <div class="parrafoDer m20 desaparecer">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas reiciendis non, nobis amet voluptatum laborum laboriosam fugit veniam vero beatae aliquid officia, animi obcaecati possimus facere ad, nostrum voluptatem quas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum sequi qui vel totam distinctio, sit nam sint esse dolore aliquid aspernatur iste nostrum delectus optio harum officiis? Adipisci, itaque.</p>
             </div>
         </main>
         <!-- PIE DE PAGINA -->
-        <footer class="jCSpaceBetween bgPrincipal">
+        <footer class="jCSpaceBetween gradienteFooter">
             <div class="logoFoo p20">
                 <img src="img/logoLakers.png" alt="logo lakers">
             </div>
@@ -59,5 +61,10 @@
             </div>
         </footer>   
     </div>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
